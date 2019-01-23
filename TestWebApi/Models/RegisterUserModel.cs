@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace TestWebApi.Models
+{
+    public class RegisterUserModel
+    {
+        public int UserId { get; set; }
+        public string AppID { get; set; }
+        public string DeviceID { get; set; }
+        public string Mobile { get; set; }
+        public string Email { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Remark { get; set; }
+        public DateTime DateCreate { get; set; }
+        public DateTime DateUpdate { get; set; }
+    }
+}
